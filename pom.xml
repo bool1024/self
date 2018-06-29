@@ -74,17 +74,12 @@
     		</configuration>
     	</plugin>
     </plugins>
-   <!-- 
+   
     <resources>
     	<resource>
-    		<directory>src/main/resources</directory>
-    		<includes>
-    			<include>**/*.*</include>
-    		</includes>
-    		<excludes>
-    			<exclude>**/*.java</exclude>
-    		</excludes>
+    		<directory>src/main/webapp</directory>
+    		<filtering>false</filtering>
     	</resource>
-    </resources> --> 
+    </resources>
   </build>
 </project>
